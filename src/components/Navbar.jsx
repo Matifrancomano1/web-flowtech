@@ -2,6 +2,8 @@ import { useState, useEffect } from 'react';
 import { motion as Motion} from 'framer-motion';
 import { Menu, X } from 'lucide-react';
 
+
+
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
@@ -29,15 +31,9 @@ const Navbar = () => {
       <div className="container mx-auto px-6 flex justify-between items-center">
         
         {/* Logo */}
+        {/* Logo */}
         <div className="flex items-center gap-3 cursor-pointer">
-          {/* El clúster de píxeles del logo [cite: 32] */}
-          <div className="grid grid-cols-2 gap-0.5">
-            <div className="w-2 h-2 bg-ft-blue"></div>
-            <div className="w-2 h-2 bg-ft-white"></div>
-            <div className="w-2 h-2 bg-ft-white"></div>
-            <div className="w-2 h-2 bg-ft-blue"></div>
-          </div>
-          <span className="text-lg sm:text-2xl font-bold text-ft-white tracking-tight">
+          <span className="text-lg sm:text-2xl font-bold text-white tracking-tight">
             Flow<span className="text-ft-blue">Tech</span>
           </span>
         </div>

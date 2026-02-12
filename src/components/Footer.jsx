@@ -1,6 +1,7 @@
 import { motion as Motion } from 'framer-motion';
 import { Mail, Instagram, Linkedin, MapPin, ArrowUp } from 'lucide-react';
 
+
 const Footer = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
