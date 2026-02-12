@@ -37,7 +37,7 @@ const About = () => {
                 </div>
               </div>
               <div className="flex items-start gap-4">
-                <div className="p-2 bg-purple-500/10 rounded-lg text-purple-500"><Zap size={24} /></div>
+                <div className="p-2 bg-yellow-500/10 rounded-lg text-yellow-500"><Lightbulb size={24} /></div>
                 <div>
                   <h4 className="font-bold">Innovación</h4>
                   <p className="text-gray-500 text-sm">Despliegues rápidos y seguros en la nube.</p>

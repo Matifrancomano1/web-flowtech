@@ -37,17 +37,17 @@ const Hero = () => {
             <div className="card text-center">
               <Code className="text-ft-blue mb-4 mx-auto" size={40} />
               <h3 className="text-lg font-bold mb-2">Desarrollo Web</h3>
-              <p className="text-gray-400 text-sm">Frontend moderno con React.js</p>
+        
             </div>
             <div className="card text-center">
               <Database className="text-purple-500 mb-4 mx-auto" size={40} />
               <h3 className="text-lg font-extrabold mb-2">Backend & DB</h3>
-              <p className="text-gray-400 text-sm">Node.js y Neon Database</p>
+              
             </div>
             <div className="card text-center">
               <Rocket className="text-orange-400 mb-4 mx-auto" size={40} />
               <h3 className="text-lg font-extrabold mb-2">Escalabilidad</h3>
-              <p className="text-gray-400 text-sm">Infraestructura en Render</p>
+              
             </div>
           </div>
           {/* Un círculo decorativo de fondo */}
