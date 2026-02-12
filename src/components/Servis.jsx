@@ -1,5 +1,5 @@
 import { motion as Motion} from 'framer-motion';
-import { Layout, Server, Database, Smartphone, BarChart3, ShieldCheck, Rocket } from 'lucide-react';
+import { Layout, Server, Database, Smartphone, BarChart3, ShieldCheck, Rocket, AppWindow, Palette, Camera } from 'lucide-react';
 
 const services = [
   {
@@ -8,8 +8,8 @@ const services = [
     icon: <Layout className="text-blue-500" size={32} />,
   },
   {
-    title: "Arquitectura de Backend",
-    description: "Sistemas escalables, gestión de procesos y despliegue optimizado en plataformas como Render.",
+    title: "Diseño UI/UX",
+    description: "Diseño de interfaces atractivas y funcionales.",
     icon: <Server className="text-purple-500" size={32} />,
   },
   
@@ -32,6 +32,21 @@ const services = [
     title: "Diseño de soluciones a medida",
     description: "Desarrollo de soluciones a medida basadas en las necesidades del cliente.",
     icon: <Rocket className="text-green-400" size={32} />,
+  },
+  {
+    title:"Diseño de paginas webs",
+    description: "Diseño de paginas webs basadas en las necesidades del cliente.",
+    icon: <AppWindow className="text-pink-500" size={32} />,  
+  },
+  {
+    title:"Diseño de contenido visual",
+    description: "Diseño de flayers, banners, logos y todo lo relacionado con el contenido visual de tu negocio.",
+    icon: <Palette className="text-indigo-500" size={32} />,  
+  },
+  {
+    title:"Sesiones de foto y video",
+    description: "Sesiones de foto y video para capturar la escencia de tu negocio.",
+    icon: <Camera className="text-yellow-500" size={32} />,  
   }
 ];
 
