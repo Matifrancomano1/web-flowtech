@@ -42,7 +42,7 @@ const ContactForm = () => {
   }
 
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section id="contacto" className="py-24 bg-slate-950 text-white">
       <div className="container mx-auto px-6 max-w-4xl">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold mb-4">Iniciemos tu Proyecto</h2>

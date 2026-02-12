@@ -37,7 +37,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section className="py-24 bg-slate-950 text-white">
+    <section id="servicios" className="py-24 bg-slate-950 text-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Servicios Digitales</h2>
@@ -48,7 +48,7 @@ const Services = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {services.map((service, index) => (
-            <motion.div
+            <Motion.div
               key={index}
               whileHover={{ y: -8 }}
               className="card text-center"
@@ -58,7 +58,7 @@ const Services = () => {
               <p className="text-gray-400 text-sm leading-relaxed">
                 {service.description}
               </p>
-            </motion.div>
+            </Motion.div>
           ))}
         </div>
       </div>

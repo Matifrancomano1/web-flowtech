@@ -1,8 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
+@import "tailwindcss";
+
+@theme {
+  --color-ft-blue: #0085FF;
+  --color-ft-dark: #1A1A1A;
+  --color-ft-gray: #F5F5F5;
+  --font-nunito: Nunito, sans-serif;
+}
 
 :root {
   font-family: 'Nunito', sans-serif;
