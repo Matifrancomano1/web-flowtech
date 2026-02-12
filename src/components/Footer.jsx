@@ -23,10 +23,10 @@ const Footer = () => {
           <div>
             <h4 className="font-bold mb-6">Navegación</h4>
             <ul className="space-y-4 text-gray-500">
-              <li className="hover:text-blue-500 transition-colors cursor-pointer">Inicio</li>
-              <li className="hover:text-blue-500 transition-colors cursor-pointer">Servicios</li>
-              <li className="hover:text-blue-500 transition-colors cursor-pointer">Packs</li>
-              <li className="hover:text-blue-500 transition-colors cursor-pointer">Portfolio</li>
+              <li><a href="#" className="hover:text-blue-500 transition-colors">Inicio</a></li>
+              <li><a href="#servicios" className="hover:text-blue-500 transition-colors">Servicios</a></li>
+              <li><a href="#packs" className="hover:text-blue-500 transition-colors">Packs</a></li>
+              <li><a href="#contacto" className="hover:text-blue-500 transition-colors">Contacto</a></li>
             </ul>
           </div>
 
@@ -36,7 +36,7 @@ const Footer = () => {
             <ul className="space-y-4 text-gray-500">
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-500" />
-                <span>hola@flowtech.com</span>
+                <span>flowtech.sta@gmail.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <MapPin size={18} className="text-blue-500" />

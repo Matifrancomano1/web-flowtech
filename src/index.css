@@ -36,6 +36,10 @@ h1, h2, h3 {
   @apply border border-slate-700 text-gray-300 px-6 py-3 rounded-lg hover:bg-slate-800 transition;
 }
 
+.btn-white {
+  @apply bg-white text-slate-900 font-bold px-8 py-3 rounded-xl shadow-lg hover:bg-gray-200 transition-transform transform hover:-translate-y-1;
+}
+
 .card {
   @apply bg-slate-900 p-6 rounded-2xl border border-slate-800 shadow-lg transition-transform transform hover:-translate-y-2;
 }

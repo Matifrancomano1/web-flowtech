@@ -94,7 +94,7 @@ const ContactForm = () => {
           <button
             type="submit"
             disabled={status === 'loading'}
-            className="md:col-span-2 bg-blue-600 hover:bg-blue-700 py-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all disabled:opacity-50"
+            className="md:col-span-2 bg-gradient-to-r from-ft-blue to-blue-500 hover:to-blue-600 text-white py-4 rounded-xl font-bold flex items-center justify-center gap-2 transition-all shadow-lg shadow-ft-blue/20 disabled:opacity-50"
           >
             {status === 'loading' ? 'Enviando...' : <><Send size={20} /> Enviar Consulta</>}
           </button>

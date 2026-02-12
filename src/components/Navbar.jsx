@@ -53,9 +53,9 @@ const Navbar = () => {
               {link.name}
             </a>
           ))}
-          <button className="btn-primary">
+          <a href="#contacto" className="btn-primary">
             Presupuesto
-          </button>
+          </a>
         </div>
 
         {/* Mobile Button */}

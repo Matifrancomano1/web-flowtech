@@ -21,8 +21,8 @@ const Hero = () => {
           </p>
           
           <div className="mt-8 flex items-center justify-center gap-4">
-            <button className="btn-primary">Arma tu pack ideal</button>
-            <button className="btn-ghost">Contáctanos</button>
+            <a href="#packs" className="btn-primary">Arma tu pack ideal</a>
+            <a href="#contacto" className="btn-white">Contáctanos</a>
           </div>
         </Motion.div>
 
