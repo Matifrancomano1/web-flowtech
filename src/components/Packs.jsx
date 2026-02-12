@@ -82,7 +82,7 @@ const Packs = () => {
             href="#contacto"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
-            className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 text-white px-12 py-5 rounded-full font-bold text-lg shadow-lg hover:shadow-blue-500/30 transition-all cursor-pointer"
+            className="inline-block bg-gradient-to-r from-blue-600 to-purple-600 !text-white px-12 py-5 rounded-full font-bold text-lg shadow-lg hover:shadow-blue-500/30 transition-all cursor-pointer"
           >
             Arma tu pack ideal
           </Motion.a>
